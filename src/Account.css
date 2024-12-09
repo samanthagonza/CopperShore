@@ -1,0 +1,128 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d; /* Dark background */
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Account Page Container */
+.account-container {
+  text-align: center;
+  padding: 50px;
+  max-width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Account Page Title */
+.account-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #ff4500, 0 0 20px #ff6347;
+}
+
+/* Description Section */
+.account-description {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+/* Account Actions (Sign-In Section) */
+.account-actions {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Subtitle Styling */
+.account-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #ff4500;
+  text-shadow: 0 0 10px #ff4500;
+}
+
+/* Placeholder for Google Sign-In Button */
+#google-signin-button {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+/* Sign-In Button (Fallback Style) */
+.sign-in-button {
+  background-color: #ff4500;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.sign-in-button:hover {
+  background-color: #ff6347;
+  box-shadow: 0 0 15px #ff4500;
+}
+
+/* Sign-Out Button */
+.sign-out-button {
+  background-color: #ff4500;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.sign-out-button:hover {
+  background-color: #ff6347;
+  box-shadow: 0 0 15px #ff4500;
+}
+
+/* Account Details Section */
+.account-details {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Account Info Section */
+.account-info {
+  margin-top: 20px;
+  text-align: left;
+  padding: 15px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.2);
+}
+
+.account-info p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.account-info span {
+  font-weight: bold;
+  color: #ff4500;
+}
+
+/* Placeholder Text */
+.placeholder {
+  color: #aaaaaa;
+  font-style: italic;
+}
